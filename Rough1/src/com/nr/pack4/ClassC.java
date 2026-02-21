@@ -5,6 +5,7 @@ public class ClassC {
 	public static void main(String[] args) {
 		ClassA c=new ClassB().setSdep(101).setSname("jhanu").getdetails();
 		System.out.println(c);
+System.out.println(c);
 	}
 }
 
