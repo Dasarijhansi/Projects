@@ -16,6 +16,7 @@ public class ClassB {
 	
 
       List<Integer> list=Arrays.asList(2,3,7,4,6,1);
+
       int target =5;
       
      int ab= list.stream().filter(d-> d.intValue()<target).max(Integer::compareTo).get();
