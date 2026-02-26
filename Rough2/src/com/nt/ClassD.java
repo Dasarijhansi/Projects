@@ -13,7 +13,10 @@ public class ClassD {
 		al.add(new Employee("jhan","hbsf",101,10,1000));
 		al.add(new Employee("jhan","hbsf",101,10,1000));
 		al.add(new Employee("jhan","hbsf",101,10,1000));
+<<<<<<< HEAD
 al.add(new Employee("jhan","hbsf",101,10,1000));
+=======
+>>>>>>> e14e1eb05a8e7d04bebfa7527a10954d480c5e34
 
 		Iterator<Employee> i=al.iterator();
 		while(i.hasNext())
