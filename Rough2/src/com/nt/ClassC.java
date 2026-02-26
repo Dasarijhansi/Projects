@@ -16,7 +16,7 @@ public class ClassC {
 		al.add(new Employee("mesgf","er",103,20,2000));
 		al.add(new Employee("khwc","hbsmff",104,30,3000));
 		al.add(new Employee("trt","hhg",104,30,5000));
-		
+		al.add(new Employee("trt","hhg",104,30,5000));
 		al.stream().collect(Collectors.groupingBy(Employee::getEno,
 	    Collectors.maxBy(Comparator.comparingInt(Employee::getSal)))).forEach((a,b)->System.out.println(a+" "+b.get()));;
 		
